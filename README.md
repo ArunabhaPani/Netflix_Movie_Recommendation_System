@@ -8,10 +8,10 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 We use *web scraping* to get the reviews given by the user in the IMDB site using beautifulsoup4 and performed sentiment analysis on those reviews.
 ## Running Flask Tests
 
-To run a Flask deployment tests, run the following command
+To run a Streamlit deployment tests, run the following command
 
 ```bash
-  python main.py
+  streamlit run main.py
 ```
 
 ## Deployment
@@ -24,9 +24,9 @@ Prepare your dataset:
         2. Exploratory Data Analysis(EDA)
         3. Feature Engineering
         4. Model Building and Tuning
-        5. Building Flask API
+        5. Building tmdb API
         6. Pushing code to Github
-        7. Connecting to your Netlify account 
+        7. Connecting to your streamlit account 
         8. Deploy App
 
 
